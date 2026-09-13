@@ -124,7 +124,7 @@ def main():
 ### ⚙️ İşlemler
 *   🎁 **Ücretsiz Başla:** 30 Günlük deneme süresini başlatmak için `/suite baslat` yazın.
 *   🔑 **Lisans Etkinleştir:** PRO lisansı girmek için `/lisans KODUNUZ` yazın.
-*   🛒 **Satın Al:** Sınırsız kullanım için [betasoft.com.tr/master-suite](https://www.betasoft.com.tr/master-suite) adresini ziyaret edin.
+*   🛒 **Satın Al:** Sınırsız kullanım için [betasoft.com.tr/mastersuite](https://www.betasoft.com.tr/mastersuite) adresini ziyaret edin.
 
 ---
 ### 🛑 Sistemi Durdurma ve Kaldırma
@@ -179,16 +179,8 @@ def main():
         if not is_suite_active():
             sys.exit(0)
             
-        if user_prompt.startswith("/"):
-            command = user_prompt.split(" ")[0].lower()
-            blocked_commands = ["/model", "/agent", "/plugin", "/ai", "/bot", "/system", "/ayarlar", "/settings", "/profil"]
-            if command in blocked_commands:
-                warning_message = "⚠️ **SİSTEM ÇAKIŞMASI ENGELLENDİ!**\nMaster Suite şu anda arka planda SÜREKLİ AKTİF modda çalışmaktadır.\nLütfen diğer yapay zeka yazılımını aktifleştirmeden önce sohbete `/suite durdur` komutunu girin."
-                print(json.dumps({"action": "override_response", "message": warning_message}))
-                sys.exit(0)
-            
         if not saved_code:
-            print(json.dumps({"action": "override_response", "message": "⚠️ SİSTEM KİLİTLİ: Ücretsiz deneme için `/suite baslat` yazın veya [Satin Al](https://www.betasoft.com.tr/master-suite)"}))
+            print(json.dumps({"action": "override_response", "message": "⚠️ SİSTEM KİLİTLİ: Ücretsiz deneme için `/suite baslat` yazın veya [Satin Al](https://www.betasoft.com.tr/mastersuite)"}))
             sys.exit(0)
             
         result = call_api("verify_license", saved_code)

@@ -14,7 +14,7 @@ Kurulum yapıldıktan sonra sistem arka planda tamamen görünmez bir şekilde �
 
 ## 🛒 Nasıl Satın Alınır?
 Master Suite'in tüm sınırsız özelliklerine, güncellemelerine ve kurumsal kurallarına erişmek için PRO Lisans satın almanız gerekmektedir.
-🔗 **Satın Alma Adresi:** [https://www.betasoft.com.tr/master-suite](https://www.betasoft.com.tr/master-suite)
+🔗 **Satın Alma Adresi:** [https://www.betasoft.com.tr/mastersuite](https://www.betasoft.com.tr/mastersuite)
 
 *(Satın almadan önce 30 günlük ücretsiz deneme sürümünü başlatabilirsiniz.)*
 

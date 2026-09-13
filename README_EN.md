@@ -14,7 +14,7 @@ Once installed, the system runs completely invisibly in the background, transfor
 
 ## 🛒 How to Purchase
 To access all unlimited features, updates, and enterprise rules of Master Suite, you need to purchase a PRO License.
-🔗 **Purchase Link:** [https://www.betasoft.com.tr/master-suite](https://www.betasoft.com.tr/master-suite)
+🔗 **Purchase Link:** [https://www.betasoft.com.tr/mastersuite](https://www.betasoft.com.tr/mastersuite)
 
 *(You can start a 30-day free trial before purchasing.)*
 
