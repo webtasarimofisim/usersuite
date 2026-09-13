@@ -14,6 +14,11 @@ git clone https://github.com/webtasarimofisim/usersuite.git ~/.gemini/config/plu
 1. Sistemi ZIP dosyası olarak doğrudan şu URL'den indirin: [https://github.com/webtasarimofisim/usersuite/archive/refs/heads/main.zip](https://github.com/webtasarimofisim/usersuite/archive/refs/heads/main.zip)
 2. İndirdiğiniz dosyaları ZIP'ten çıkartıp yapay zeka eklenti dizininize (Örn: `~/.gemini/config/plugins/master-suite/`) kopyalayın.
 
+
+**Seçenek 3: Yapay Zekaya (Asistana) Otomatik Kurdurma**
+Eğer terminal veya dosyalarla uğraşmak istemiyorsanız, kullandığınız yapay zekaya (Antigravity, Cursor, Claude vb.) şu mesajı göndermeniz yeterlidir. Yapay zeka eklentiyi GitHub'tan kendisi çekecektir:
+> "Lütfen şu Master Suite yapay zeka eklentisini doğrudan GitHub'tan sistemine kur ve aktifleştir: `https://github.com/webtasarimofisim/usersuite`"
+
 **Aktifleştirme:**
 Kurulum bittikten sonra yazılımınızı yeniden başlatın veya yeni bir sohbet penceresi açın.
 

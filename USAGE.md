@@ -14,6 +14,11 @@ git clone https://github.com/webtasarimofisim/usersuite.git ~/.gemini/config/plu
 1. Download this repository as a ZIP file from: [https://github.com/webtasarimofisim/usersuite/archive/refs/heads/main.zip](https://github.com/webtasarimofisim/usersuite/archive/refs/heads/main.zip)
 2. Extract the contents into your AI's plugin directory (e.g., `~/.gemini/config/plugins/master-suite/`).
 
+
+**Option 3: Automatic AI Installation**
+If you prefer not to deal with terminals or zip files, you can simply ask your AI assistant (Antigravity, Cursor, Claude, etc.) to install it for you. Just send this prompt in your chat:
+> "Please install and activate the Master Suite AI plugin directly from this GitHub repository into your system: `https://github.com/webtasarimofisim/usersuite`"
+
 **Activation:**
 After installation, restart your AI software or open a new chat session.
 
