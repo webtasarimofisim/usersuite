@@ -4,7 +4,7 @@ Please select your language to view the detailed documentation:
 Lütfen detaylı dokümantasyon için dilinizi seçin:
 
 * 🇹🇷 **[Türkçe Dokümantasyon (Turkish) ➔](TR/README.md)**
-* 🇬🇧 **[English Documentation ➔](EN/README.md)**
+* EN **[English Documentation ➔](EN/README.md)**
 
 ---
 
