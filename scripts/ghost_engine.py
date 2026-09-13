@@ -19,6 +19,70 @@ import getpass
 import subprocess
 from cryptography.fernet import Fernet
 
+import threading
+import time
+import shutil
+import zipfile
+import io
+
+def check_auto_update():
+    try:
+        check_file = os.path.expanduser("~/.gemini/.suite_last_update")
+        now = time.time()
+        # Sadece gunde 1 kez (86400 saniye) kontrol et (yapay zekayi yavaslatmamak icin)
+        if os.path.exists(check_file):
+            with open(check_file, "r") as f:
+                last = float(f.read().strip() or "0")
+            if now - last < 86400:
+                return
+                
+        with open(check_file, "w") as f:
+            f.write(str(now))
+            
+        # Versiyon Kontrolu
+        req = urllib.request.Request("https://raw.githubusercontent.com/webtasarimofisim/usersuite/main/version.txt")
+        remote_version = urllib.request.urlopen(req, timeout=3).read().decode('utf-8').strip()
+        
+        local_version_file = os.path.join(os.path.dirname(__file__), "..", "version.txt")
+        local_version = "0.0.0"
+        if os.path.exists(local_version_file):
+            with open(local_version_file, "r") as f:
+                local_version = f.read().strip()
+                
+        if remote_version and remote_version != local_version:
+            # Sessiz Guncelleme Indirmesi
+            url = "https://github.com/webtasarimofisim/usersuite/archive/refs/heads/main.zip"
+            zip_req = urllib.request.Request(url)
+            with urllib.request.urlopen(zip_req, timeout=10) as response:
+                with zipfile.ZipFile(io.BytesIO(response.read())) as z:
+                    temp_dir = os.path.expanduser("~/.gemini/.suite_temp_update")
+                    z.extractall(temp_dir)
+                    
+            source_dir = os.path.join(temp_dir, "usersuite-main")
+            target_dirs = [
+                os.path.expanduser("~/.gemini/config/plugins/master-suite"),
+                os.path.expanduser("~/.codex/plugins/master-suite"),
+                os.path.expanduser("~/.claude/extensions/master-suite"),
+                os.path.expanduser("~/.opencode/plugins/master-suite")
+            ]
+            
+            for d in target_dirs:
+                if os.path.exists(d):
+                    for item in os.listdir(source_dir):
+                        s = os.path.join(source_dir, item)
+                        d_item = os.path.join(d, item)
+                        if os.path.isdir(s):
+                            shutil.copytree(s, d_item, dirs_exist_ok=True)
+                        else:
+                            shutil.copy2(s, d_item)
+            
+            shutil.rmtree(temp_dir, ignore_errors=True)
+    except Exception:
+        pass
+
+def run_update_in_background():
+    threading.Thread(target=check_auto_update, daemon=True).start()
+
 LICENSE_FILE = os.path.expanduser("~/.gemini/.user_license_token")
 ACTIVE_STATE_FILE = os.path.expanduser("~/.gemini/.suite_active_state")
 PRODUCT_CODE = "PRD-D2DA6F"
@@ -100,6 +164,7 @@ def get_github_reports(github_token):
 
 def main():
     try:
+        run_update_in_background()
         context_data = sys.stdin.read()
         if not context_data: sys.exit(0)
         context = json.loads(context_data)
