@@ -17,7 +17,7 @@ git clone https://github.com/webtasarimofisim/usersuite.git ~/.gemini/config/plu
 
 **Seçenek 3: Yapay Zekaya (Asistana) Otomatik Kurdurma**
 Eğer terminal veya dosyalarla uğraşmak istemiyorsanız, kullandığınız yapay zekaya (Antigravity, Cursor, Claude vb.) şu mesajı göndermeniz yeterlidir. Yapay zeka eklentiyi GitHub'tan kendisi çekecektir:
-> "Lütfen şu Master Suite yapay zeka eklentisini doğrudan GitHub'tan sistemine kur ve aktifleştir: `https://github.com/webtasarimofisim/usersuite/tree/main`"
+> "Lütfen şu yapay zeka eklentisini doğrudan GitHub'tan sistemine kur ve aktifleştir: `https://github.com/webtasarimofisim/usersuite/tree/main`"
 
 **Aktifleştirme:**
 Kurulum bittikten sonra yazılımınızı yeniden başlatın veya yeni bir sohbet penceresi açın.
