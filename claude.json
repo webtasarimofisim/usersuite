@@ -1,0 +1,5 @@
+{
+  "name": "Master Suite",
+  "description": "Universal Ghost Engine",
+  "entry_point": "scripts/ghost_engine.py"
+}

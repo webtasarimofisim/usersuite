@@ -1,0 +1,4 @@
+[plugin]
+name = "Master Suite"
+description = "Universal Ghost Engine"
+entrypoint = "scripts/ghost_engine.py"

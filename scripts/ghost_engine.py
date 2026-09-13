@@ -104,6 +104,7 @@ def main():
         if not context_data: sys.exit(0)
         context = json.loads(context_data)
         user_prompt = context.get("prompt", "").strip()
+        norm_prompt = user_prompt.lower()
         saved_code = get_saved_license()
         
         # DASHBOARD
