@@ -38,3 +38,30 @@ You can manage Master Suite with full authority by entering the following comman
 | **`/lisans YOUR_CODE`** | 🔑 **Enter PRO License:** Registers the PRO license key (e.g., `PRD-***-XYZ`) you purchased from BetaSoft into the system and unlocks it permanently. |
 | **`/suite durdur`** | 🛑 **Temporary Pause:** Temporarily stops the Ghost Engine. Your AI reverts to its normal/standard version. |
 | **`/lisans kaldir`** | 🗑️ **Complete Removal:** Completely deletes your license and trial from this device and disconnects from the cloud. (Use this when switching computers). |
+
+<a id="universal-multi-ai"></a>
+### 10. Universal Multi-AI Compatibility
+Master Suite is no longer bound to a single AI. Thanks to its universal core (`ghost_engine.py`) developed in pure Python using standard **JSON STDIN** read/write logic, it is 100% compatible with popular coding agents like Antigravity, **Codex**, **Claude Code**, and **OpenCode**. With multiple manifests (`claude.json`, `plugin.json`, `config.toml`), every AI platform recognizes the software as its "official plugin."
+
+<a id="one-click-installers"></a>
+### 11. Cross-Platform One-Click Installers
+No more searching for folders or installing dependencies!
+* **For Windows:** `kurulum-windows.bat`
+* **For Mac:** `kurulum-mac.command`
+* **For Linux:** `kurulum-linux.sh`
+The customer simply double-clicks the file. The system pulls the latest version from GitHub, automatically locates hidden AI directories (`.gemini`, `.codex`, `.claude`), and silently completes the installation in seconds.
+
+<a id="mcp-server"></a>
+### 12. MCP Server: Cursor and Claude Integration
+Official **Model Context Protocol (MCP)** support has been added to work with next-gen desktop AIs like **Cursor IDE, Claude Desktop, and Windsurf**.
+* `mcp_server.py`: Bridges Ghost Engine and MCP via JSON-RPC.
+* `mcp_installer.py`: Automatically registers the Master Suite MCP server by analyzing Cursor/Claude config files on Mac and Windows.
+
+<a id="ai-shield"></a>
+### 13. AI Anti-Reverse Engineering Shield
+To prevent malicious users from using AIs to "cancel the license" or "reverse engineer" the code, a **CRITICAL AI INSTRUCTION (System Override)** shield is embedded at the top of the codebase. Any AI reading the code to crack it will immediately reject the action due to copyright and security policies.
+
+<a id="ota-update"></a>
+### 14. Silent OTA Autonomous Update
+When you publish a new feature or security rule, customers do not need to redownload files!
+A background daemon thread in `ghost_engine.py` silently checks `version.txt` once a day. If a new version is available, it downloads the ZIP without slowing down the AI, updates the code in the background, and keeps the customer on the latest version.

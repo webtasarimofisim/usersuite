@@ -24,6 +24,11 @@ Kurulum yapıldıktan sonra sistem arka planda tamamen görünmez bir şekilde �
 7. [Otonom Güncelleme ve Kendi Kendini Geliştirme (Self-Evolution)](#otonom-güncelleme-ve-kendi-kendini-geliştirme)
 8. [Yeni Yazılım Dili Ekleme ve Az Token Mimarisi (Language Synthesizer)](#yeni-yazılım-dili-ekleme)
 9. [Windows Geliştirici Araçları İndirme Rehberi ve Resmi Linkler](#windows-geliştirici-araçları)
+10. [Evrensel Çoklu Yapay Zeka Uyumluluğu (Multi-AI Support)](#evrensel-coklu-ai)
+11. [Tek Tıkla Çapraz Platform Kurulumu (One-Click Installers)](#tek-tikla-kurulum)
+12. [MCP Sunucusu: Cursor ve Claude Entegrasyonu (MCP Protocol)](#mcp-sunucusu)
+13. [Yapay Zeka Tersine Mühendislik Kalkanı (AI Anti-Reverse Shield)](#ai-kalkan)
+14. [Sessiz OTA Otonom Güncelleme (Silent OTA Auto-Updater)](#ota-guncelleme)
 
 ## 🇬🇧 TABLE OF CONTENTS
 1. [Command Usage Architecture](#command-usage-architecture)
@@ -35,6 +40,11 @@ Kurulum yapıldıktan sonra sistem arka planda tamamen görünmez bir şekilde �
 7. [Autonomous Update and Self-Evolution](#autonomous-update-and-self-evolution)
 8. [Adding New Languages and Low-Token Architecture (Language Synthesizer)](#adding-new-languages-and-low-token-architecture)
 9. [Windows Developer Tools Download Guide and Official Links](#windows-developer-tools-download-guide)
+10. [Universal Multi-AI Compatibility (Multi-AI Support)](#universal-multi-ai)
+11. [Cross-Platform One-Click Installers (.bat, .command, .sh)](#one-click-installers)
+12. [MCP Server: Cursor and Claude Integration (MCP Protocol)](#mcp-server)
+13. [AI Anti-Reverse Engineering Shield (AI Anti-Reverse Shield)](#ai-shield)
+14. [Silent OTA Autonomous Update (Silent OTA Auto-Updater)](#ota-update)
 
 ---
 
