@@ -3,8 +3,19 @@
 Master Suite is a background "Ghost Engine" that professionalizes your AI experience.
 
 ## 🛠️ Installation Steps
-1. Copy the `hooks.json`, `plugin.json`, and the `scripts/` folder from this repository into your AI plugin directory (e.g., `~/.gemini/config/plugins/`).
-2. Restart your AI software (Antigravity, etc.) or open a new chat session.
+**Option 1: Quick Install via Terminal (Recommended)**
+You can install the plugin directly from GitHub into your AI system using the following command:
+```bash
+git clone https://github.com/webtasarimofisim/usersuite.git ~/.gemini/config/plugins/master-suite
+```
+*(If you are using Antigravity CLI, you can also run: `agy plugin install https://github.com/webtasarimofisim/usersuite`)*
+
+**Option 2: Manual Install**
+1. Download this repository as a ZIP file from: [https://github.com/webtasarimofisim/usersuite/archive/refs/heads/main.zip](https://github.com/webtasarimofisim/usersuite/archive/refs/heads/main.zip)
+2. Extract the contents into your AI's plugin directory (e.g., `~/.gemini/config/plugins/master-suite/`).
+
+**Activation:**
+After installation, restart your AI software or open a new chat session.
 
 ## ⌨️ Commands and Usage
 You can manage the system by entering the following commands in the chat interface:
