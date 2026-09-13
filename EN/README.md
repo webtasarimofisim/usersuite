@@ -46,9 +46,9 @@ Master Suite is no longer bound to a single AI. Thanks to its universal core (`g
 <a id="one-click-installers"></a>
 ### 11. Cross-Platform One-Click Installers
 No more searching for folders or installing dependencies!
-* **For Windows:** `kurulum-windows.bat`
-* **For Mac:** `kurulum-mac.command`
-* **For Linux:** `kurulum-linux.sh`
+* **For Windows:** `install-windows.bat`
+* **For Mac:** `install-mac.command`
+* **For Linux:** `install-linux.sh`
 The customer simply double-clicks the file. The system pulls the latest version from GitHub, automatically locates hidden AI directories (`.gemini`, `.codex`, `.claude`), and silently completes the installation in seconds.
 
 <a id="mcp-server"></a>
