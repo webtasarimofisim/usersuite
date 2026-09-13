@@ -96,7 +96,7 @@ def main():
         saved_code = get_saved_license()
         
         # DASHBOARD
-        if user_prompt == "/lisans":
+        if norm_prompt in ["/lisans", "/license"]:
             result = call_api("verify_license", saved_code) if saved_code else None
             
             if result and result.get("status") == "success":
@@ -134,14 +134,14 @@ def main():
             print(json.dumps({"action": "override_response", "message": dashboard}))
             sys.exit(0)
             
-        elif user_prompt == "/lisans kaldir":
+        elif norm_prompt in ["/lisans kaldir", "/lisans kaldır", "/license remove"]:
             if os.path.exists(LICENSE_FILE): os.remove(LICENSE_FILE)
             set_suite_state(False)
             print(json.dumps({"action": "override_response", "message": "🗑️ Lisans başarıyla kaldırıldı. Sistem buluttan koparıldı ve tamamen kilitlendi."}))
             sys.exit(0)
             
-        elif user_prompt.startswith("/lisans "):
-            code = user_prompt.replace("/lisans", "").strip()
+        elif norm_prompt.startswith("/lisans ") or norm_prompt.startswith("/license "):
+            code = user_prompt.replace("/lisans", "").replace("/license", "").strip()
             result = call_api("verify_license", code)
             if result.get("status") == "success":
                 with open(LICENSE_FILE, "w", encoding="utf-8") as f: f.write(code)
@@ -151,7 +151,7 @@ def main():
                 print(json.dumps({"action": "override_response", "message": f"❌ {result.get('message')}"}))
             sys.exit(0)
 
-        if user_prompt == "/suite baslat":
+        if norm_prompt in ["/suite baslat", "/suite başlat", "/suite start"]:
             result = call_api("verify_license", saved_code) if saved_code else call_api("start_trial")
             if result.get("status") == "success":
                 set_suite_state(True)
@@ -162,13 +162,13 @@ def main():
                 print(json.dumps({"action": "override_response", "message": f"❌ {result.get('message')}"}))
             sys.exit(0)
             
-        elif user_prompt == "/suite durdur":
+        elif norm_prompt in ["/suite durdur", "/suite stop"]:
             set_suite_state(False)
             print(json.dumps({"action": "override_response", "message": "🛑 Suite arka plan çalışması DURDURULDU."}))
             sys.exit(0)
             
         # KULLANICI RAPORLARI (Sadece aktifken owner gorebilir, gerci bypass edip bakalim)
-        if user_prompt == "/suite kullanıcı rapor":
+        if norm_prompt in ["/suite kullanıcı rapor", "/suite kullanici rapor", "/suite reports"]:
             result = call_api("verify_license", saved_code)
             if result.get("status") == "success" and result.get("github_token"):
                 reports = get_github_reports(result.get("github_token"))
