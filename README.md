@@ -19,3 +19,16 @@ Master Suite'i saniyeler içinde kurmak için dosyaları indirdikten sonra işle
 
 > **Bilgi / Info:** Kurulum arkaplanda otomatik olarak gerçekleşir. Cursor, Claude, Opencode ve Antigravity gibi tüm yapay zeka (MCP) ayarlamalarını kendi kendine yapar. 
 > *Installation happens automatically in the background. It auto-configures all AI environments (MCP) like Cursor, Claude, Opencode, and Antigravity for you.*
+
+---
+
+## 🤖 Yapay Zeka ile Kurulum Promptu (Agentic Install via Prompt)
+
+Dosya indirmekle hiç uğraşmak istemiyorsanız, doğrudan kullandığınız yapay zekaya (Cursor, Claude, Antigravity vb.) aşağıdaki komutu (prompt) kopyalayıp yapıştırın. Yapay zeka eklentiyi otonom olarak kendi kendine kuracaktır:
+
+*If you prefer an entirely hands-free installation, simply copy and paste the prompt below into your AI chat. The AI will download and install the plugin autonomously:*
+
+```text
+Lütfen bu yapay zeka eklentisini (Master Suite) doğrudan GitHub'dan sistemine kur ve aktifleştir. Repo içerisindeki işletim sistemime uygun olan kurulum dosyasını (kurulum-windows.bat, kurulum-mac.command veya kurulum-linux.sh) çalıştırarak tüm MCP ve eklenti entegrasyonlarını arkaplanda otonom olarak tamamla:
+https://github.com/webtasarimofisim/usersuite
+```
