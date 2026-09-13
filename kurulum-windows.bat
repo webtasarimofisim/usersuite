@@ -20,6 +20,7 @@ for %%D in (%DIRS%) do (
     echo -> Kuruldu: %%D
 )
 
+python "%TARGET_DIR%\mcp_installer.py"
 rmdir /s /q "usersuite-main"
 del "usersuite_temp.zip"
 
