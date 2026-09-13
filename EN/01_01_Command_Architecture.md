@@ -1,0 +1,1 @@
+# Command Usage Architecture\n\nMaster Suite redefines how autonomous AI agents operate. Every command entered via API or CLI is first filtered by the system for security, context, and resource management. The system operates on a 'Zero Preamble' logic strictly adhering to Karpathy's discipline, focusing directly on the objective.\n\n[⬅️ Back to Home](README.md)

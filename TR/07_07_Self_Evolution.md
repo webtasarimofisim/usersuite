@@ -1,0 +1,1 @@
+# Otonom Güncelleme ve Kendi Kendini Geliştirme\n\nMaster Suite statik bir yazılım değildir. Siz onu kullandıkça ve kodlardaki mantık hatalarını düzeltmesini istedikçe arka planda SemVer (sürüm) numaralarını günceller. Karşılaştığı çözümleri hafızasına alarak bir sonraki sefer aynı hatayı yapmaz.\n\n[⬅️ Geri Dön (Back to Home)](README.md)

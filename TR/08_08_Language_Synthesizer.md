@@ -1,0 +1,1 @@
+# Yeni Yazılım Dili Ekleme ve Az Token Mimarisi\n\nSistem Çift Dilli (Dual-Language) mimari kullanır. Arkaplanda İngilizce düşünerek %60 token tasarrufu yapar ama size Türkçe cevap verir. Ayrıca `language_synthesizer.js` aracıyla sisteme saniyeler içinde yepyeni bir yazılım dili (Rust, Go vb.) öğretilebilir.\n\n[⬅️ Geri Dön (Back to Home)](README.md)

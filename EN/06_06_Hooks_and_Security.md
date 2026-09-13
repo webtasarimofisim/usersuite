@@ -1,0 +1,1 @@
+# Automated Hooks and Security Guards\n\nThe system features `pre_inference` hooks that run before every command. These hooks prevent OWASP security vulnerabilities, XSS, SQL Injections, and unauthorized command inputs before the AI even generates a response.\n\n[⬅️ Back to Home](README.md)

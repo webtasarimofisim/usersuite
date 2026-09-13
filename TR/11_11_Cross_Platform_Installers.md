@@ -1,0 +1,1 @@
+# Tek Tıkla Çapraz Platform Kurulumu\n\nWindows (.bat), Mac (.command) ve Linux (.sh) için hazırlanan akıllı scriptler, işletim sistemini tanır. Gizli `.gemini`, `.claude`, `.codex` klasörlerini kendi bulur ve zip dosyasından çıkarak kurulumu sıfır manuel müdahale ile bitirir.\n\n[⬅️ Geri Dön (Back to Home)](README.md)

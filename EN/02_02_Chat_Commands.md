@@ -1,0 +1,1 @@
+# In-Chat Slash Commands\n\nThe `/` (slash) commands used in the chat interface instantly alter the AI's behavior. For example, `/license` opens the system panel, `/suite start` engages the ghost engine, and `/suite stop` returns the AI to standard mode. These commands work universally across all AI interfaces (Cursor, Antigravity, Claude).\n\n[⬅️ Back to Home](README.md)

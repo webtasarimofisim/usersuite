@@ -1,0 +1,1 @@
+# 15 Expert Agent Trigger Commands\n\nDuring development, 15 different autonomous expert agents can be engaged. Commands like `/php`, `/seo`, `/qa`, `/db`, `/sec` trigger the specialized AI model for that specific field. Each agent has its own specific rules, token budget, and autonomous bug-repair mechanism.\n\n[⬅️ Back to Home](README.md)

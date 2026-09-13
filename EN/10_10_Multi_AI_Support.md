@@ -1,0 +1,1 @@
+# Universal Multi-AI Support\n\nThe Ghost Engine core is pure Python, supported by `plugin.json`, `config.toml`, and `claude.json` manifests. This makes it 100% compatible with all popular coding agents like Antigravity, OpenAI Codex, Claude Code, and OpenCode.\n\n[⬅️ Back to Home](README.md)

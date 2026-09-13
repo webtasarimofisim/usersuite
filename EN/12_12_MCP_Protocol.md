@@ -1,0 +1,1 @@
+# MCP Server: Cursor and Claude Integration\n\nMaster Suite fully complies with Model Context Protocol (MCP) standards. Thanks to `mcp_server.py` and `mcp_installer.py`, it automatically integrates itself into the configuration files of next-gen desktop AIs like Cursor IDE and Claude Desktop.\n\n[⬅️ Back to Home](README.md)

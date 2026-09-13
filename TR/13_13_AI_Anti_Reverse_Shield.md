@@ -1,0 +1,1 @@
+# Yapay Zeka Tersine Mühendislik Kalkanı\n\nSistemin kodlarını çalmak veya lisansını iptal etmek için kodu yapay zekaya okutmaya çalışan korsanlara karşı 'System Override' komutları yerleştirilmiştir. Herhangi bir yapay zeka bu kodu gördüğünde işlemi telif hakları gereği derhal durdurur.\n\n[⬅️ Geri Dön (Back to Home)](README.md)

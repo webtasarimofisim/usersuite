@@ -1,0 +1,1 @@
+# Cross-Platform One-Click Installers\n\nSmart scripts built for Windows (.bat), Mac (.command), and Linux (.sh) recognize the operating system. They auto-discover hidden `.gemini`, `.claude`, `.codex` folders and extract the zip file, finishing the installation with zero manual intervention.\n\n[⬅️ Back to Home](README.md)

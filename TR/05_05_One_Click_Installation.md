@@ -1,0 +1,1 @@
+# Tek Komutla Kurulum ve Tescil (CLI)\n\nYazılım, `agy plugin install` veya hazırlanan özel `.bat` / `.command` dosyalarıyla tek komutta sisteme kurulur. Yapay zekanız (Claude, Cursor vb.) kurulumu algılar ve bulut tabanlı tescil (lisans) işlemlerini arkaplanda otomatik olarak gerçekleştirir.\n\n[⬅️ Geri Dön (Back to Home)](README.md)

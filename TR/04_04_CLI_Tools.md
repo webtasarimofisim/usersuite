@@ -1,0 +1,1 @@
+# Terminal / CLI Araç Komutları\n\nMaster Suite sadece sohbet penceresinde değil, işletim sisteminizin terminalinde de çalışır. Node.js ve Python tabanlı CLI araçları (Örn: `node bom_utf8_scan.js`, `python mcp_installer.py`) ile projelerinizdeki hatalar terminal üzerinden otomatik taranır ve çözülür.\n\n[⬅️ Geri Dön (Back to Home)](README.md)

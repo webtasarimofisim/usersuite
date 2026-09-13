@@ -1,0 +1,1 @@
+# AI Anti-Reverse Engineering Shield\n\nTo prevent hackers from feeding the code to an AI to steal it or cancel its license, 'System Override' commands are embedded. When any AI sees this code, it immediately halts the operation citing copyright and safety policies.\n\n[⬅️ Back to Home](README.md)

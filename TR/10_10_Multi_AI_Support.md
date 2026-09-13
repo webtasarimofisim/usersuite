@@ -1,0 +1,1 @@
+# Evrensel Çoklu Yapay Zeka Uyumluluğu\n\nGhost Engine çekirdeği saf Python'dur ve `plugin.json`, `config.toml`, `claude.json` manifestolarıyla desteklenmiştir. Bu sayede Antigravity, OpenAI Codex, Claude Code ve OpenCode gibi tüm popüler kodlama ajanlarıyla %100 uyumludur.\n\n[⬅️ Geri Dön (Back to Home)](README.md)

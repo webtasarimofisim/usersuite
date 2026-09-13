@@ -1,0 +1,1 @@
+# 15 Uzman Ajanı Tetikleme Komutları\n\nGeliştirme sürecinde 15 farklı otonom uzman ajan devreye girebilir. `/php`, `/seo`, `/qa`, `/db`, `/sec` gibi komutlarla ilgili alanın uzman yapay zeka modeli tetiklenir. Her ajan kendi spesifik kurallarına, token bütçesine ve otonom hata onarım mekanizmasına sahiptir.\n\n[⬅️ Geri Dön (Back to Home)](README.md)

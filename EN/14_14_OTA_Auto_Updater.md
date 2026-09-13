@@ -1,0 +1,1 @@
+# Silent OTA Autonomous Update\n\nAfter installation, the software silently checks the `version.txt` in your Github repo once a day in the background (as a daemon thread). When a new version is published, it secretly downloads and overwrites the old code. It never slows down the AI.\n\n[⬅️ Back to Home](README.md)

@@ -1,0 +1,1 @@
+# Sessiz OTA Otonom Güncelleme\n\nKurulum sonrası yazılım günde bir kez Github deponuzdaki `version.txt` dosyasını arkaplanda (daemon thread olarak) sessizce kontrol eder. Yeni bir sürüm yayınladığınızda dosyaları gizlice indirip eski kodların üzerine yazar. Yapay zekayı asla yavaşlatmaz.\n\n[⬅️ Geri Dön (Back to Home)](README.md)

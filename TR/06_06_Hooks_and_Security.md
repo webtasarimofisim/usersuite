@@ -1,0 +1,1 @@
+# Otomatik Kancalar (Hooks) ve Güvenlik Muhafızları\n\nSistem, her komuttan önce çalışan `pre_inference` (düşünme öncesi) kancalarına (hooks) sahiptir. Bu kancalar, OWASP güvenlik açıkları, XSS, SQL Enjeksiyonları ve yetkisiz komut girişlerini daha yapay zeka yanıt üretmeden engeller.\n\n[⬅️ Geri Dön (Back to Home)](README.md)

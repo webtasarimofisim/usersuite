@@ -1,0 +1,1 @@
+# Adding New Languages and Low-Token Architecture\n\nThe system uses a Dual-Language architecture. It saves 60% of tokens by thinking in English in the background but responds to you in your preferred language. Also, with the `language_synthesizer.js` tool, a brand new programming language (Rust, Go, etc.) can be taught to the system in seconds.\n\n[⬅️ Back to Home](README.md)

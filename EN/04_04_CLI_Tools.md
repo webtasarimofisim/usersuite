@@ -1,0 +1,1 @@
+# Terminal / CLI Tool Commands\n\nMaster Suite works not only in the chat window but also in your operating system's terminal. With Node.js and Python-based CLI tools (e.g., `node bom_utf8_scan.js`, `python mcp_installer.py`), bugs in your projects are automatically scanned and resolved via the terminal.\n\n[⬅️ Back to Home](README.md)

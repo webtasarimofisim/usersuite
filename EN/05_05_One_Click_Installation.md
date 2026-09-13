@@ -1,0 +1,1 @@
+# One-Click Installation and Registration\n\nThe software is installed in the system with a single command using `agy plugin install` or the custom `.bat` / `.command` files. Your AI (Claude, Cursor, etc.) detects the installation and performs cloud-based registration (license) processes automatically in the background.\n\n[⬅️ Back to Home](README.md)
