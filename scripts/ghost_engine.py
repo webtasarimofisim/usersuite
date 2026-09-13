@@ -118,7 +118,7 @@ def main():
 *   **Sistem Durumu:** {status_text}
 *   **Lisans Kodu:** `{masked_code}`
 *   **Donanım Kimliği:** `{get_hardware_id()}`
-*   **Kayıtlı Mail:** `{get_user_email()}`
+*   **Kayıtlı Mail:** `{result.get("registered_email", "Bilinmiyor")}`
 
 ---
 ### ⚙️ İşlemler
