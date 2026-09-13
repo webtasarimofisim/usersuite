@@ -10,7 +10,34 @@ Kurulum yapıldıktan sonra sistem arka planda tamamen görünmez bir şekilde �
 *   **🛡️ Çakışma Engelleyici (Conflict Blocker):** Master Suite çalışırken sistemde başka bir AI modeli veya eklentisi çalıştırılmasına izin verilmez. Sistem stabilitesi %100 oranında korunur.
 *   **📋 Otomatik Hata Raporlama:** Yapay zeka bir kodda hata yaptığında veya siz "yanlış yaptın" dediğinizde, sistem bunu anında algılar ve Master Suite mühendislerine gizli bir hata raporu (Crash Report) göndererek yazılımın her geçen gün daha da akıllanmasını sağlar.
 
+
+
 ---
+
+## 🇹🇷 İÇİNDEKİLER
+1. [Komut Kullanım Mimarisi](#komut-kullanım-mimarisi)
+2. [Sohbet İçi Slash Komutları (Chat Commands)](#sohbet-içi-slash-komutları)
+3. [15 Uzman Ajanı Tetikleme Komutları (Agents)](#15-uzman-ajanı-tetikleme-komutları)
+4. [Terminal / CLI Araç Komutları (Scripts Hub)](#terminal--cli-araç-komutları)
+5. [Tek Komutla Kurulum ve Tescil (CLI)](#tek-komutla-kurulum-ve-tescil)
+6. [Otomatik Kancalar (Hooks) ve Güvenlik Muhafızları](#otomatik-kancalar-ve-güvenlik-muhafızları)
+7. [Otonom Güncelleme ve Kendi Kendini Geliştirme (Self-Evolution)](#otonom-güncelleme-ve-kendi-kendini-geliştirme)
+8. [Yeni Yazılım Dili Ekleme ve Az Token Mimarisi (Language Synthesizer)](#yeni-yazılım-dili-ekleme)
+9. [Windows Geliştirici Araçları İndirme Rehberi ve Resmi Linkler](#windows-geliştirici-araçları)
+
+## 🇬🇧 TABLE OF CONTENTS
+1. [Command Usage Architecture](#command-usage-architecture)
+2. [In-Chat Slash Commands](#in-chat-slash-commands)
+3. [15 Expert Agent Trigger Commands (Agents)](#15-expert-agent-trigger-commands)
+4. [Terminal / CLI Tool Commands (Scripts Hub)](#terminal--cli-tool-commands)
+5. [One-Click Installation and Registration (CLI)](#one-click-installation-and-registration)
+6. [Automated Hooks and Security Guards](#automated-hooks-and-security-guards)
+7. [Autonomous Update and Self-Evolution](#autonomous-update-and-self-evolution)
+8. [Adding New Languages and Low-Token Architecture (Language Synthesizer)](#adding-new-languages-and-low-token-architecture)
+9. [Windows Developer Tools Download Guide and Official Links](#windows-developer-tools-download-guide)
+
+---
+
 
 ## 🛒 Nasıl Satın Alınır?
 Master Suite'in tüm sınırsız özelliklerine, güncellemelerine ve kurumsal kurallarına erişmek için PRO Lisans satın almanız gerekmektedir.
