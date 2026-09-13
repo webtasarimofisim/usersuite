@@ -1,0 +1,6 @@
+{
+    "pre_inference": {
+        "script": "python scripts/ghost_engine.py",
+        "pass_context": true
+    }
+}
